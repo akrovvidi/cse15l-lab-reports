@@ -35,7 +35,7 @@ Now that we've successfully setup our account, it's time we connect to the remot
 
 Once you've done that and succesfully entered your password, the terminal will print the following welcome statement as seen above.
 
-#Trying some commands
+# Trying some commands
 
 Now we can try running some commads on the remote server using the terminal in VS Code. To make it easier, i have listed some of the commands you can use below and their significance. 
 * cd - Used to change the current directory to the path provided
