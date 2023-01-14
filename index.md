@@ -1,6 +1,8 @@
 # *Lab 1 Report*
 
 
+
+
 # Installing VS Code
 I have not included a tutorial for this stage as i had actually had it installed last quarter. However, once you are able to install VS Code, your home screen should look something like this.
 
