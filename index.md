@@ -1,5 +1,8 @@
 # *Lab 1 Report*
 
+#Installing VS Code
+I have not included a tutorial for this stage as i had actually had it installed last quarter.
+
 
 
 # Accessing your CSE15L Account
@@ -20,6 +23,9 @@ Once you've got your account setup, it's time to move onto the next step!
 
 # Remote Connection
 
-Now that we've successfully setup our account, it's time we connect to the remote servers in the CSE Basement! The first thing we wannt to do is open VSCode. I actually did not create a tutorial for VSCode installation as i had already installed it last quarter. Once we open VSCode, click on "Terminal" and then "New Terminal". Once you see the terminal open up, you will then want to paste the following code below onto your terminal. 
+Now that we've successfully setup our account, it's time we connect to the remote servers in the CSE Basement! The first thing we want to do is open VSCode. I actually did not create a tutorial for VSCode installation as i had already installed it last quarter. Once we open VSCode, click on "Terminal" and then "New Terminal". Once you see the terminal open up, you will then want to paste the following code below onto your terminal. 
+<img width="554" alt="SSH_" src="https://user-images.githubusercontent.com/122575272/212447510-fbbb662f-5a22-4e65-adaf-f41df3201249.png">
+Once you've done that and succesfully entered your password, the terminal will print the following welcome statement as seen above.
+
 
 
