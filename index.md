@@ -1,7 +1,11 @@
 # *Lab 1 Report*
 
+
 # Installing VS Code
-I have not included a tutorial for this stage as i had actually had it installed last quarter.
+I have not included a tutorial for this stage as i had actually had it installed last quarter. However, once you are able to install VS Code, your home screen should look something like this.
+
+<img width="1291" alt="VSCode" src="https://user-images.githubusercontent.com/122575272/212447856-06349fce-fc54-435e-87b2-5e5195724a29.png">
+
 
 
 
@@ -31,5 +35,18 @@ Now that we've successfully setup our account, it's time we connect to the remot
 
 Once you've done that and succesfully entered your password, the terminal will print the following welcome statement as seen above.
 
+#Trying some commands
+
+Now we can try running some commads on the remote server using the terminal in VS Code. To make it easier, i have listed some of the commands you can use below and their significance. 
+* cd - Used to change the current directory to the path provided
+* pwd - Short for print working directory just displays the current working directory
+* ls - Used to list the contents of the provided path
+* cat - Prints the contents of one or more provided paths
+
+Hopefully you now understand what each of those commands mean so that you can start running these commands in the terminal. Below you can see some sample commands I used on the remote server. 
+
+<img width="312" alt="RunCommands" src="https://user-images.githubusercontent.com/122575272/212448564-0db1f9e2-223d-43c4-a10c-db4993f2f715.png">
+
+As you can see, pwd just printed the current working directoryy and then when i ran "ls" it just printed the contents of the root file which is "perl5". These are just one of the many commands you can use in the terminal
 
 
