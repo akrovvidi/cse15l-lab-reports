@@ -35,7 +35,7 @@ Now that we've successfully set up our account, it's time we connect to the remo
 <img width="554" alt="SSH_" src="https://user-images.githubusercontent.com/122575272/212447510-fbbb662f-5a22-4e65-adaf-f41df3201249.png">
 
 
-Once you've done that and successfully entered your password, the terminal will print the following welcome statement, as seen above.
+Once you've done that and successfully and entered your password, the terminal will print the following welcome statement, as seen above.
 
 # Trying some commands
 
