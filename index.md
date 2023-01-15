@@ -18,7 +18,7 @@ To access your specific account for CSE15L, simply click on the link below and l
 [CSE15L Access Page](https://sdacs.ucsd.edu/~icc/index.php)
 
 
-Once you can login and find your CSE15L username, you will have to reset your password if you don't have one already. To reset, access the global password change website by clicking the link bel
+Once you can login and find your CSE15L username, you will have to reset your password if you don't have one already. To reset, access the global password change website by clicking the link below
 
 
 [Global Password Reset](https://sdacs.ucsd.edu/~icc/password.php)
@@ -29,7 +29,7 @@ Once you've set up your account, it's time to move on to the next step!
 
 # Remote Connection
 
-Now that we've successfully set up our account, it's time we connect to the remote servers in the CSE Basement! The first thing we want to do is open VSCode. Once we open VSCode, click on "Terminal" and then "New Terminal". Once you see the terminal open up, paste the following code below onto your terminal. 
+Now that we've successfully set up our account, it's time we connect to the remote servers in the CSE Basement! The first thing we want to do is open VSCode. Once we open VSCode, click on "Terminal" and then "New Terminal". Once you see the terminal open up, paste the following code below onto your terminal. It's just "ssh [your cse15L username]@
 
 
 <img width="554" alt="SSH_" src="https://user-images.githubusercontent.com/122575272/212447510-fbbb662f-5a22-4e65-adaf-f41df3201249.png">
