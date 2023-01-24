@@ -54,13 +54,16 @@ We can try running some commands on the remote server using the terminal in VS C
 Hopefully, you now understand what each of those commands means so that you can start running these commands in the terminal. Below you can see some sample commands I used on the remote server.
 
 
-<img width="312" alt="RunCommands" src="https://user-images.githubusercontent.com/122575272/212448564-0db1f9e2-223d-43c4-a10c-db4993f2f715.png">
+```
+[cs15lwi23atr@ieng6-202]:~:13$ pwd
+/home/linux/ieng6/cs15lwi23/cs15lwi23atr
+[cs15lwi23atr@ieng6-202]:~:14$ ls
+perl5
+[cs15lwi23atr@ieng6-202]:~:15$ cd perl5
+[cs15lwi23atr@ieng6-202]:perl5:16$ ls
+[cs15lwi23atr@ieng6-202]:perl5:17$ 
+```
 
 As you can see, pwd just printed the current working directory and then when I ran “ls”, it just printed the contents of the root file, which is “perl5”. These are just one of the many commands you can use in the terminal.
 
 
-```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
-```
