@@ -36,7 +36,11 @@ Once you've set up your account, it's time to move on to the next step!
 Now that we've successfully set up our account, it's time we connect to the remote servers in the CSE Basement! The first thing we want to do is open VSCode. Once we open VSCode, click on "Terminal" which will be located in the top left hand corner if you are using a mac and then hit "New Terminal". Once you see the terminal open up, paste the following code below onto your terminal. It's just "ssh [your cse15L username]@ieng6.ucsd.edu".
 
 
-![Image](file:///Users/aniruddh/Downloads/SSH_.png)
+```
+(base) Aniruddhs-MacBook-Pro:cse12-wi23-pa2-ArrayList-starter-main aniruddh$ ssh cs15lwi23atr@ieng6.ucsd.edu
+(cs15lwi23atr@ieng6.ucsd.edu) Password: 
+Hello cs15lwi23atr, you are currently logged into ieng6-202.ucsd.edu
+```
 
 
 Once you've done that and successfully and entered your password, the terminal will print the following welcome statement, as seen above. However, if you're like and just reset your password, you will want to wait for about 15 minutes before you try logging in as chances are that your new password will not be recognized by the systems just yet.
@@ -67,4 +71,3 @@ perl5
 ```
 
 As you can see, pwd just printed the current working directory and then when I ran “ls”, it just printed the contents of the root file, which is “perl5”. These are just one of the many commands you can use in the terminal.
-
