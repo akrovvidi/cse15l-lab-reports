@@ -59,7 +59,8 @@ Hopefully, you now understand what each of those commands means so that you can 
 As you can see, pwd just printed the current working directory and then when I ran “ls”, it just printed the contents of the root file, which is “perl5”. These are just one of the many commands you can use in the terminal.
 
 
+```
 # code block
 print '3 backticks or'
 print 'indent 4 spaces'
-
+```
