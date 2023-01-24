@@ -46,10 +46,12 @@ Once you've done that and successfully and entered your password, the terminal w
 We can try running some commands on the remote server using the terminal in VS Code. To make it easier, I have listed some of the commands you can use below and their significance.
 
 
+```
 * cd - Used to change the current directory to the path provided
 * pwd - Short for print working directory, displays the current working directory
 * ls - Used to list the contents of the provided path
 * cat - Prints the contents of one or more provided paths
+```
 
 Hopefully, you now understand what each of those commands means so that you can start running these commands in the terminal. Below you can see some sample commands I used on the remote server.
 
@@ -65,5 +67,4 @@ perl5
 ```
 
 As you can see, pwd just printed the current working directory and then when I ran “ls”, it just printed the contents of the root file, which is “perl5”. These are just one of the many commands you can use in the terminal.
-
 
