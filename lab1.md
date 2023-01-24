@@ -10,12 +10,9 @@ I had actually installed it last quarter but to install VS Code, you will first 
 [VS Code Download](https://code.visualstudio.com/)
 
 
-Once you're on the page, you will need to either "Download for MacOS" or "Download for Windows" depending on what operating system you are using. When you've finished installing it, your homepage should look similar to the one below.
-
+Once you're on the page, you will need to either "Download for macOS" or "Download for Windows," depending on your operating system. After installing it, your homepage should look similar to the one below.
 
 <img width="1291" alt="VSCode" src="https://user-images.githubusercontent.com/122575272/212447856-06349fce-fc54-435e-87b2-5e5195724a29.png">
-
-
 
 
 # Accessing your CSE15L Account
