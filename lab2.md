@@ -32,11 +32,19 @@ class StringServer {
 }
 ```
 
+In this screenshot, the methods that are called are StringServer and the StringServerHandler. The StringServer class is called to generate the port number and a working website to run the commands. The StringServerHandler method is called to handle requests and check for any "add-message" queries. The valid arguement for the StringServerHandler method would be a valid url of type URI. 
+
 
 
 <img width="639" alt="messageEquals1" src="https://user-images.githubusercontent.com/122575272/215026711-1eeacdb3-db6e-4473-a785-43fadc4fda73.png">
 
+
+In this second screenshot, i changed add-message to "How are you" which makes the web server now print the previous message and the current message. Similar to the previous screenshot, the methods called are StringServer and StringServerHandler. However in this case, the ArrayList for messagesList is updated with another element to hold the String object and print it out. 
+
+
+
 <img width="635" alt="messageEquals2" src="https://user-images.githubusercontent.com/122575272/215026768-2b9baa18-6029-47c3-94ac-2c42feac3ac0.png">
+
 
 # Part 2
 
