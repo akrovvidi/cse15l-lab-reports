@@ -39,11 +39,13 @@ Now that we've successfully set up our account, it's time we connect to the remo
 ssh [your cse15L username]@ieng6.ucsd.edu.
 ```
 
+Once you've done that and successfully and entered your password, the terminal will print the following welcome statement, as seen above.
+
+
 <img width="554" alt="SSH_" src="https://user-images.githubusercontent.com/122575272/215010737-f362874f-e83e-4fc4-b84e-76c33c822f99.png">
 
 
-
-Once you've done that and successfully and entered your password, the terminal will print the following welcome statement, as seen above. However, if you're like and just reset your password, you will want to wait for about 15 minutes before you try logging in as chances are that your new password will not be recognized by the systems just yet.
+ However, if you're like and just reset your password, you will want to wait for about 15 minutes before you try logging in as chances are that your new password will not be recognized by the systems just yet.
 
 # Trying some commands
 
