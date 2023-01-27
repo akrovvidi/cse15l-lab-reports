@@ -69,6 +69,8 @@ The code which tests the method using this input can be seen below:
   ## The symptom
   <img width="610" alt="TestReversedFailed" src="https://user-images.githubusercontent.com/122575272/215035184-b59f91a2-b7e6-44e4-b192-808d5ec25c7b.png">
   
+  <img width="578" alt="TestReversedFailedSuccess" src="https://user-images.githubusercontent.com/122575272/215035687-733fcde1-4fa5-467d-bf84-58c41b747258.png">
+  
   ## Before fixing the bug:
   The code with the bug can be seen below:
    ```
