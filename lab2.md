@@ -32,3 +32,59 @@ class StringServer {
 }
 ```
 
+<img width="639" alt="messageEquals1" src="https://user-images.githubusercontent.com/122575272/215026711-1eeacdb3-db6e-4473-a785-43fadc4fda73.png">
+
+<img width="635" alt="messageEquals2" src="https://user-images.githubusercontent.com/122575272/215026768-2b9baa18-6029-47c3-94ac-2c42feac3ac0.png">
+
+# Part 2
+
+The bug I chose for this part of the lab is the one in method reversed which returns a new array with all the elements in the input array reversed. 
+
+## Failure-inducing input:
+The failure inducing input for this code is the integer array - {5,4,3,2,1}
+The code which tests the method using this input can be seen below:
+```
+  @Test
+  public void manualTestReversed(){
+    int input[] = {5,4,3,2,1};
+    ArrayExamples.reversed(input);
+    assertArrayEquals(new int[]{1,2,3,4,5}, input);
+  }
+  ```
+  
+  ## Success-inducing input
+  An input that does not induce a failure for the reversed method is the integer array - {0,0,0}
+  ```
+  @Test
+  public void manualTestReversed(){
+    int input[] = {0,0,0};
+    ArrayExamples.reversed(input);
+    assertArrayEquals(new int[]{0,0,0}, input);
+  }
+  }
+  ```
+  
+  ##The symptom
+  
+  ## Before fixing the bug:
+   ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+  
+  
+  ## After fixing the bug:
+   ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+  ```
