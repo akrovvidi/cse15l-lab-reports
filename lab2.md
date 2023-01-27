@@ -66,9 +66,11 @@ The code which tests the method using this input can be seen below:
   }
   ```
   
-  ##The symptom
+  ## The symptom
+  <img width="610" alt="TestReversedFailed" src="https://user-images.githubusercontent.com/122575272/215035184-b59f91a2-b7e6-44e4-b192-808d5ec25c7b.png">
   
   ## Before fixing the bug:
+  The code with the bug can be seen below:
    ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -78,7 +80,7 @@ The code which tests the method using this input can be seen below:
     return arr;
   }
   ```
-  
+The problem with this code is that it copies from an empty array which causes all indices to be 0. Also, instead of returning the new Array, this method returns the input array.
   
   ## After fixing the bug:
    ```
@@ -90,3 +92,5 @@ The code which tests the method using this input can be seen below:
     return newArray;
   }
   ```
+  
+  The following changes: `newArray[i] = arr[arr.length - i - 1];` and `return newArray;` allows the method to now work in its intended manner.
