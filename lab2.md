@@ -104,3 +104,7 @@ The problem with this code is that it copies from an empty array which causes al
   ```
   
   The following changes: `newArray[i] = arr[arr.length - i - 1];` and `return newArray;` allows the method to now work in its intended manner.
+
+# Part 3
+
+The new concepts I learned from the last labs is understanding the meaning of symtopms and bugs while also being able to identify them in methods. I understood that symptom is realted to the actual behavior of the program while bugs are the failures/flaws in the program that causes those particular symptoms. In addition, I was able to learn how to implement web servers like StringServer and perfrom specific actions on it. 
