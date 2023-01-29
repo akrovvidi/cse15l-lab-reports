@@ -32,14 +32,12 @@ class StringServer {
 }
 ```
 
-In this screenshot, the methods that are called are StringServer and the StringServerHandler. The StringServer class is called to generate the port number and a working website to run the commands. The StringServerHandler method is called to handle requests and check for any "add-message" queries. The valid arguement for the StringServerHandler method would be a valid url of type URI. 
-
+In this screenshot, the methods that are called are StringServer and the StringServerHandler. The StringServer class is called to generate the port number and a working website to run the commands. The StringServerHandler method is called to handle requests and check for any "add-message" queries. The valid argument for the StringServerHandler method would be a valid url of type URI. 
 
 
 <img width="639" alt="messageEquals1" src="https://user-images.githubusercontent.com/122575272/215026711-1eeacdb3-db6e-4473-a785-43fadc4fda73.png">
 
-
-In this second screenshot, i changed add-message to "How are you" which makes the web server now print the previous message and the current message. Similar to the previous screenshot, the methods called are StringServer and StringServerHandler. However in this case, the ArrayList for messagesList is updated with another element to hold the String object and print it out. 
+In this second screenshot, I changed the add-message to "How are you" which makes the web server print the previous and current messages. Similar to the previous screenshot, the methods called are StringServer and StringServerHandler. However, in this case, the ArrayList for messagesList is updated with another element to hold the String object and print it out. 
 
 
 
@@ -74,8 +72,12 @@ The code which tests the method using this input can be seen below:
   }
   ```
   
-  ## The symptom
+  ## The symptoms
+  
+  The screenshot below shows the symptom caused by the bug in the program which results in the failed test
   <img width="610" alt="TestReversedFailed" src="https://user-images.githubusercontent.com/122575272/215035184-b59f91a2-b7e6-44e4-b192-808d5ec25c7b.png">
+  
+  This screenshot shows the test passing despite a bug in the program
   
 <img width="586" alt="TestReversedSuccess" src="https://user-images.githubusercontent.com/122575272/215298904-6d2893b1-2b28-4544-83ce-40f6f007873e.png">
 
@@ -108,4 +110,4 @@ The problem with this code is that it copies from an empty array which causes al
 
 # Part 3
 
-The new concepts I learned from the last labs is understanding the meaning of symtopms and bugs while also being able to identify them in methods. I understood that symptom is realted to the actual behavior of the program while bugs are the failures/flaws in the program that causes those particular symptoms. In addition, I was able to learn how to implement web servers like StringServer and perfrom specific actions on it. 
+The new concept I learned from the last labs is understanding the meaning of symptoms and bugs while also being able to identify them in methods. I understood that symptom is related to the actual behavior of the program, while bugs are the failures/flaws in the program that causes those particular symptoms. In addition, I learned how to implement web servers like StringServer and perform specific actions on them. 
