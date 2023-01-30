@@ -72,12 +72,18 @@ The code which tests the method using this input can be seen below:
   }
   ```
   
-# The symptoms
+## The symptoms
   
   The screenshot below shows the symptom caused by the bug in the program which results in the failed test
+  
+  
+  
   <img width="610" alt="TestReversedFailed" src="https://user-images.githubusercontent.com/122575272/215035184-b59f91a2-b7e6-44e4-b192-808d5ec25c7b.png">
   
+  
+  
   This screenshot shows the test passing despite a bug in the program
+  
   
 <img width="586" alt="TestReversedSuccess" src="https://user-images.githubusercontent.com/122575272/215298904-6d2893b1-2b28-4544-83ce-40f6f007873e.png">
 
