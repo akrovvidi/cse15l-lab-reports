@@ -390,7 +390,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
 
 This command could be useful when you want a quick count of the number of occurrences a string pattern, without having to view the full contents of the matching lines. The source for this command is the youtube video below.
 
-[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+[https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad] Grep commands video
 
 
 ## Second Instance of grep
