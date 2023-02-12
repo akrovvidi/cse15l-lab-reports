@@ -390,7 +390,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
 
 This command could be useful when you want a quick count of the number of occurrences a string pattern, without having to view the full contents of the matching lines. The source for this command is the youtube video below.
 
-https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
 
 
 ## Second Instance of grep
@@ -430,6 +430,8 @@ written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
 ```
 This option can be useful when you want to find which files contain a specific piece of information, without having to view the contents of each file. The source I used for this command is the youtube video below:
 
+[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+
 ## The Third instance of grep method
 
 The next command we will be looking at is "grep-n". The "-n" displays the line number for each match and displays the matching text. The example below will make it more clear. 
@@ -451,6 +453,8 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arri
 written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
 This option can be useful when you want to quickly locate the exact location of a specific piece of information within a file. The source I used for this command is the youtube video below
+
+[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
 
 ## The fourth instance of grep method
 
@@ -477,5 +481,7 @@ written_2/travel_guides/berlitz2/Cuba-History.txt:In 1511 Diego de Velázquez sa
 
 Note that in the terminal, "Hispaniola" is printed in color which cannot be seen in the code block above. This option can be useful when you want to quickly identify the matching lines within a file, especially when you are working with large files with many lines of text. 
 The sources I used for this command is chatGPT and the youtube video below:
+
+[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
 
  
