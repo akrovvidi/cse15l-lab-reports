@@ -390,7 +390,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
 
 This command could be useful when you want a quick count of the number of occurrences a string pattern, without having to view the full contents of the matching lines. The source for this command is the youtube video below.
 
-[https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad] Grep commands video
+[Grep commands Video](https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad)
 
 
 ## Second Instance of grep
@@ -430,7 +430,8 @@ written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
 ```
 This option can be useful when you want to find which files contain a specific piece of information, without having to view the contents of each file. The source I used for this command is the youtube video below:
 
-[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+
+[Grep commands Video](https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad)
 
 ## The Third instance of grep method
 
@@ -454,7 +455,9 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothe
 ```
 This option can be useful when you want to quickly locate the exact location of a specific piece of information within a file. The source I used for this command is the youtube video below
 
-[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+
+[Grep commands Video](https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad)
+
 
 ## The fourth instance of grep method
 
@@ -482,6 +485,6 @@ written_2/travel_guides/berlitz2/Cuba-History.txt:In 1511 Diego de Velázquez sa
 Note that in the terminal, "Hispaniola" is printed in color which cannot be seen in the code block above. This option can be useful when you want to quickly identify the matching lines within a file, especially when you are working with large files with many lines of text. 
 The sources I used for this command is chatGPT and the youtube video below:
 
-[Grep commands Video]https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad
+[Grep commands Video](https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad)
 
  
