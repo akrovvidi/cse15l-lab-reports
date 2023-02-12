@@ -2,7 +2,7 @@
 
 The command I chose to research for this lab is the "grep" command. The grep argument is a command-line function that searches for a string in a group of files. 
 
-## The first instance of Find method: 
+## The first instance of grep method: 
 
 This instance goes like:
 ```
@@ -289,3 +289,13 @@ written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:48:Soccer (football). As 
 ```
 
 ## The fourth instance of grep method
+
+The fourth and final instance of the grep command for this lab report is "grep --color" which just highlights the selected text in a different color. 
+```
+grep --color "Benfica" written_2/*/*/*.txt
+```
+Output
+```
+written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:Soccer (football). As in most European countries, futébol draws big crowds in Portugal. Lisbon’s two major teams are Benfica and Sporting Clube de Portugal. FC Porto is the top club in Portugal’s second city. The Algarve has a team in Farense, from the regional capital. Check with local tourism offices for a schedule of matches.
+```
+This command highlights Benfica in a color and displays the file that contains the string "Benfica"
