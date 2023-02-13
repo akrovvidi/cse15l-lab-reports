@@ -14,7 +14,7 @@ Now implementing this in the written_2 directory:
 ```
 grep -c "war" written_2/*/*/*.txt
 ```
-This command above will print all the text files in the written_2 directory with along with an integer value displayed next to it that shows how many times the specified string("war) appears in each file. The results of this command can be seen below:
+This command above will print all the text files in the written_2 directory along with an integer value displayed next to it that shows how many times the specified string("war") appears in each file. The results of this command can be seen below:
 
 ```
 written_2/travel_guides/berlitz1/HandRHawaii.txt:0
@@ -388,7 +388,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:0
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
 ```
 
-This command could be useful when you want a quick count of the number of occurrences a string pattern, without having to view the full contents of the matching lines. The source for this command is the youtube video below.
+This command could be useful when you want a quick count of the number of occurrences of a string pattern, without having to view the full contents of the matching lines. The source for this command is the youtube video below.
 
 [Grep commands Video](https://www.youtube.com/watch?v=EQLFr8uC44k&ab_channel=FactorPad)
 
