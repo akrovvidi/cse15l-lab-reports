@@ -5,16 +5,20 @@ The command I chose to research for this lab is the "grep" command. The grep arg
 ## The first instance of grep method: 
 
 This instance goes like:
+
 ```
 grep -c "String" path
 
 ```
 Now implementing this in the written_2 directory:
 
+Command
 ```
 grep -c "war" written_2/*/*/*.txt
 ```
 This command above will print all the text files in the written_2 directory along with an integer value displayed next to it that shows how many times the specified string("war") appears in each file. The results of this command can be seen below:
+
+Output
 
 ```
 written_2/travel_guides/berlitz1/HandRHawaii.txt:0
@@ -201,10 +205,14 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:7
 
 Another instance of the grep -c method can be seen below:
 
+Command
+
 ```
 grep -c "invade" written_2/*/*/*.txt
 ```
 This command searches for the string, "invade" in the written_2 directory and returns all the files along with an integer value assigned to it to represent the number of times the string appears in those files. 
+
+Output
 ```
 written_2/travel_guides/berlitz1/HandRHawaii.txt:0
 written_2/travel_guides/berlitz1/HandRHongKong.txt:0
@@ -417,10 +425,13 @@ The output just prints all the files in the written_2 directory that contains th
 
 Another instance can be seen below
 
+Command
+
 ```
 grep -l "bharat" written_2/*/*/*.txt
 ```
 
+Output
 ```
 written_2/travel_guides/berlitz1/HistoryIndia.txt
 written_2/travel_guides/berlitz1/HistoryMalaysia.txt
@@ -437,18 +448,25 @@ This option can be useful when you want to find which files contain a specific p
 
 The next command we will be looking at is "grep-n". The "-n" displays the line number for each match and displays the matching text. The example below will make it more clear. 
 
+Command
 
 ```
 grep -n "Benfica" written_2/*/*/*.txt
 ```
+
+Output
 ```
 written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:48:Soccer (football). As in most European countries, futébol draws big crowds in Portugal. Lisbon’s two major teams are Benfica and Sporting Clube de Portugal. FC Porto is the top club in Portugal’s second city. The Algarve has a team in Farense, from the regional capital. Check with local tourism offices for a schedule of matches.
 ```
 
 Another instance
+
+Command
 ```
 grep -n "Lucayans" written_2/*/*/*.txt
 ```
+
+Output
 ```
 written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
@@ -462,6 +480,8 @@ This option can be useful when you want to quickly locate the exact location of 
 ## The fourth instance of grep method
 
 The fourth and final instance of the grep command for this lab report is "grep --color" which just highlights the selected text in a different color. 
+
+Command
 ```
 grep --color "Benfica" written_2/*/*/*.txt
 ```
@@ -469,9 +489,12 @@ Output
 ```
 written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:Soccer (football). As in most European countries, futébol draws big crowds in Portugal. Lisbon’s two major teams are Benfica and Sporting Clube de Portugal. FC Porto is the top club in Portugal’s second city. The Algarve has a team in Farense, from the regional capital. Check with local tourism offices for a schedule of matches.
 ```
+
 This command highlights Benfica in a color and displays the file that contains the string "Benfica"
 
 Another instance of the grep --color method can be seen below.
+
+Command
 ```
 grep --color "Hispaniola" written_2/*/*/*.txt
 ```
