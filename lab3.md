@@ -1,3 +1,6 @@
+# *Lab Report 3*
+
+
 # Researching Commands 
 
 The command I chose to research for this lab is the "grep" command. The grep argument is a command-line function that searches for a string in a group of files. 
