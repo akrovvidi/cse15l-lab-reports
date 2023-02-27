@@ -85,4 +85,6 @@ git push git@github.com:akrovvidi/lab7.git
 
 The `-m` refers to the message that is shown after commiting these changes. The message can be anything that effectively communicates its purpose. In this case, I used "Changed". After running these commands, the following can be seen in the terminal:
 
+<img width="738" alt="Screenshot 2023-02-26 at 10 25 01 PM" src="https://user-images.githubusercontent.com/122575272/221490145-94e55665-33d5-4e01-8dcf-455d1f539748.png">
+
 
