@@ -18,13 +18,13 @@ ls --color
 
 Now implementing the following method in written_2 directory produces the following output:
 
-``
+```
 non-fiction  travel_guides
 ```
 
 Another instance:
 
-``
+```
 Algarve-History.txt      Bali-History.txt         Budapest-History.txt         China-WhereToGo.txt       NewOrleans-History.txt
 Algarve-Intro.txt        Bali-WhatToDo.txt        Budapest-WhatToDo.txt        Costa-History.txt         Paris-WhatToDo.txt
 Algarve-WhatToDo.txt     Bali-WhereToGo.txt       Budapest-WhereoGo.txt        Costa-WhatToDo.txt        Paris-WhereToGo.txt
